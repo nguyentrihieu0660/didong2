@@ -1,0 +1,45 @@
+<resources>
+	<string name="app_name">Quản lý lương</string>
+	<string name="tieude">Quản lý lương</string>
+	<string name="xoa">Xóa</string>
+	<string name="sua">Sửa</string>
+	<string name="them">Thêm</string>
+	<string name="thoat">Thoát</string>
+	<string name="manv">Mã NV</string>
+	<string name="hoten">Họ tên</string>
+	<string name="ngaysinh">Ngày sinh</string>
+	<string name="giaitri">Giải trí</string>
+	<string name="dsnv">Danh sách nhân viên</string>
+	<string name="tongluong">Tổng lương</string>
+	<string name="maphongban">Mã phòng ban</string>
+	<string name="tenphongban">Tên phòng ban</string>
+	<string name="luong">Lương</string>
+	<string name="chamcong">Chấm công</string>
+	<string name="bangluong">Bảng lương</string>
+	<string name="phongban">Phòng ban</string>
+	<string name="themnv">Thêm nhân viên</string>
+	<string name="quaylai">Quay lại</string>
+	<string name="tamung">Tạm ứng</string>
+	<string name="ngayghiso">Ngày ghi sổ</string>
+	<string name="nhapngayghiso">Nhập ngày ghi sổ...</string>
+	<string name="nhapsongaycong">Nhập ngày số ngày công...</string>
+	<string name="songaycong">Số ngày công</string>
+
+	<string name="nhapmanv">Nhập mã nhân viên...</string>
+	<string name="nhaphoten">Nhập họ tên...</string>
+	<string name="nhapngaysinh">Nhập ngày sinh</string>
+	<string name="nhapluong">Nhập lương...</string>
+	<string name="dscc">Danh sách chấm công</string>
+	<string name="dspb">Danh sách phòng ban</string>
+	<string name="dstamung">Danh sách tạm ứng</string>
+	<string name="sophieu">Số phiếu</string>
+	<string name="ngay">Ngày</string>
+	<string name="nhapmapb">Nhập mã phong ban...</string>
+	<string name="nhaptenpb">Nhập tên phòng ban...</string>
+	<string name="sotien">Số tiền</string>
+	<string name="nhapsophieu">Nhập số phiếu...</string>
+	<string name="nhapngay">Nhập số ngày...</string>
+	<string name="nhapsotien">Nhập số tiền...</string>
+	<string name="titiletamung">Danh Sach Tam Ung</string>
+
+</resources>

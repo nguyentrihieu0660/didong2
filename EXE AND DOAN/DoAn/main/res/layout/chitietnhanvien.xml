@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/tittle"
+        android:text="@string/dsnv" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageViewHienThi"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <LinearLayout
+           style="@style/linear">
+           <TextView
+               style="@style/tieudetruocedit"
+               android:text="@string/manv"></TextView>
+           <TextView
+               android:id="@+id/tvmaNhanVien"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+       <LinearLayout
+           style="@style/linear">
+           <TextView
+               style="@style/tieudetruocedit"
+               android:text="@string/hoten"></TextView>
+           <TextView
+               android:id="@+id/tvHotenNhanVien"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+       <LinearLayout
+           style="@style/linear">
+           <TextView
+               style="@style/tieudetruocedit"
+               android:text="@string/ngaysinh"></TextView>
+           <TextView
+               android:id="@+id/tvNgaySinNhanVien"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+       <LinearLayout
+           style="@style/linear">
+           <TextView
+               style="@style/tieudetruocedit"
+               android:text="@string/luong"></TextView>
+           <TextView
+               android:id="@+id/tvLuongNhanVien"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
+</LinearLayout>

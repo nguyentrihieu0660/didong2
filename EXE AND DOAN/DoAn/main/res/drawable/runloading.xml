@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/hinhload_0" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_10" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_20" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_30" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_40" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_50" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_60" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_70" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_80" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_90" android:duration="300"></item>
+    <item android:drawable="@drawable/hinhload_100" android:duration="300"></item>
+</animation-list>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/tittle"
+        android:text="@string/dsnv"/>
+    <LinearLayout
+        style="@style/linear">
+        <TextView
+            style="@style/tieudetruocedit"
+
+            android:text="@string/manv"
+            />
+        <EditText
+            android:id="@+id/tvMaNVDS"
+            style="@style/edittext"
+            android:hint="@string/nhapmanv"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear">
+        <TextView
+
+            style="@style/tieudetruocedit"
+            android:text="@string/hoten"
+            />
+        <EditText
+            android:id="@+id/tvHoTenNVDS"
+            style="@style/edittext"
+            android:hint="@string/nhaphoten"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linear">
+        <TextView
+            style="@style/tieudetruocedit"
+            android:text="@string/ngaysinh"
+            />
+        <EditText
+            android:id="@+id/tvNgaySinhNVDS"
+            style="@style/edittext"
+            android:hint="@string/nhapngaysinh"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear">
+        <TextView
+            style="@style/tieudetruocedit"
+            android:text="@string/luong"
+            />
+        <EditText
+            android:id="@+id/tvLuongNVDS"
+            style="@style/edittext"
+            android:hint="@string/nhapluong"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/lineartrangchinh">
+        <Button
+            android:background="@drawable/them"
+            android:id="@+id/btnXoa"
+            style="@style/button"
+            android:text="@string/xoa"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            ></Button>
+        <Button
+            android:background="@drawable/them"
+            android:id="@+id/btnSua"
+            style="@style/button"
+            android:text="@string/sua"
+            android:drawableLeft="@drawable/ic_edit_black_24dp"
+            ></Button>
+        <Button
+            android:background="@drawable/exit"
+            android:id="@+id/btnThoat"
+            style="@style/buttonthoat"
+
+            ></Button>
+    </LinearLayout>
+    <TextView
+        style="@style/phu"
+        android:text="@string/dsnv"></TextView>
+    <GridView
+        android:id="@+id/gvDanhSachNV"
+        style="@style/gv"></GridView>
+</LinearLayout>

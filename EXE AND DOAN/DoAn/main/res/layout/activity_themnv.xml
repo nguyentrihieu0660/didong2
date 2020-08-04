@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+       style="@style/tittle"
+        android:text="@string/themnv"/>
+    <LinearLayout
+        style="@style/linear">
+        <TextView
+            style="@style/tieudetruocedit"
+            android:text="@string/manv"
+            />
+        <EditText
+            android:id="@+id/tvMaNVDS"
+            style="@style/edittext"
+            android:hint="@string/nhapmanv"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear">
+        <TextView
+            style="@style/tieudetruocedit"
+            android:text="@string/hoten"
+            />
+        <EditText
+            android:id="@+id/tvHoTenNVDS"
+            style="@style/edittext"
+            android:hint="@string/nhaphoten"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linear">
+        <TextView
+            style="@style/tieudetruocedit"
+            android:text="@string/ngaysinh"
+            />
+        <EditText
+            android:id="@+id/tvNgaySinhNVDS"
+            style="@style/edittext"
+            android:hint="@string/nhapngaysinh"/>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear">
+        <TextView
+            style="@style/tieudetruocedit"
+            android:text="@string/luong"
+            />
+        <EditText
+            android:id="@+id/tvLuongNVDS"
+            style="@style/edittext"
+            android:hint="@string/nhapluong"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageViewCamera"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:src="@drawable/camera"/>
+        <ImageView
+            android:id="@+id/imageViewHinhAnh"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:src="@drawable/no_image"/>
+        <ImageView
+            android:id="@+id/imageViewFolder"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/folder"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/lineartrangchinh">
+        <Button
+            android:background="@drawable/them"
+            android:id="@+id/btnThem"
+            style="@style/button"
+            android:text="@string/them"
+            android:drawableLeft="@drawable/ic_add_box_black_24dp"
+           ></Button>
+        <Button
+            android:background="@drawable/them"
+            android:id="@+id/btnDanhSachNV"
+            style="@style/button"
+            android:text="@string/dsnv"
+            android:drawableLeft="@drawable/ic_format_list_bulleted_black_24dp"
+          ></Button>
+        <Button
+            android:background="@drawable/exit"
+            android:id="@+id/btnThoatThemNV"
+            style="@style/buttonthoat"
+
+            ></Button>
+    </LinearLayout>
+
+
+</LinearLayout>

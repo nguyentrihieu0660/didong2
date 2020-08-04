@@ -1,0 +1,72 @@
+<resources>
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+    android:textStyle="bold"
+    android:="true"
+<style name="tittle" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">20dp</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textAllCaps">true</item>
+    <item name="android:background">@color/colortittle</item>
+</style>
+
+<style name="phu" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">15dp</item>
+    <item name="android:padding">10dp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textAllCaps">true</item>
+    <item name="android:background">@color/colorphu</item>
+</style>
+
+<style name="lineartrangchinh" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:gravity">center</item>
+</style>
+<style name="linear" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">horizontal</item>
+
+</style>
+<style name="buttonchinh" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">120dp</item>
+    <item name="android:layout_height">120dp</item>
+</style>
+    <style name="buttonthoat" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="button" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+<style name="edittext" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+</style>
+<style name="gv" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+</style>
+
+<style name="tieudetruocedit" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="android:layout_width">100dp</item>
+    <item name="android:layout_height">wrap_content</item>
+</style>
+
+</resources>

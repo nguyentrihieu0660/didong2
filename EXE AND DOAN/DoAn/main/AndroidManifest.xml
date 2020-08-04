@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nhomba">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/hinhnen"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GiaoDien.ThemNV">
+        </activity>
+        <activity android:name=".GiaoDien.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".GiaoDien.MainSensor">
+        </activity>
+        <activity android:name=".GiaoDien.TamUng">
+        </activity>
+        <activity android:name=".GiaoDien.ChamCong">
+        </activity>
+        <activity android:name=".GiaoDien.ChiTietNV">
+        </activity>
+        <activity android:name=".GiaoDien.BangLuong">
+        </activity>
+        <activity android:name=".GiaoDien.PhongBan">
+        </activity>
+        <activity android:name=".GiaoDien.ChiTietPB">
+        </activity>
+        <activity android:name=".GiaoDien.ChiTietCC">
+        </activity>
+        <activity android:name=".GiaoDien.ChiTietTU">
+        </activity>
+        <activity android:name=".GiaoDien.MainVe">
+        </activity>
+        <activity android:name=".GiaoDien.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>
